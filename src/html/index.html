@@ -15,8 +15,7 @@
       <div class="col-sm-6">
         <div class="form-group">
           <label for="username">Nazwa użytkownika</label>
-          <input id="username" name="username" placeholder="Małe litery bez spacji, wymagane" type="text" class="form-control here is-valid">
-          <p class="valid-feedback">Wszystko dobrze!</p>
+          <input id="username" name="username" placeholder="Małe litery bez spacji, wymagane" type="text" class="form-control here">
         </div>
         <div class="form-group">
           <label for="email">E-mail</label>
@@ -28,23 +27,19 @@
         </div>
         <div class="form-group">
           <label for="amount">Kwota</label>
-          <input id="amount" name="amount" placeholder="Przedział (0; 100>, wymagane" type="text" class="form-control here is-invalid">
-          <div class="invalid-feedback">Coś nie tak! :(</div>
+          <input id="amount" name="amount" placeholder="Przedział (0; 100>, wymagane" type="text" class="form-control here is">
         </div>
         <div class="form-group">
           <div class="form-check">
-            <input class="form-check-input is-invalid" type="checkbox" value="" id="agreement-1" name="agreement-1" required>
+            <input class="form-check-input" type="checkbox" value="" id="agreement-1" name="agreement-1" required>
             <label class="form-check-label" for="agreement-1">
               Ta zgoda jest wymagana *
             </label>
-            <div class="invalid-feedback">
-              Musisz zaznaczyć tę zgodę. :(
-            </div>
           </div>
         </div>
         <div class="form-group">
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="agreement-2" name="agreement-2" required checked>
+            <input class="form-check-input" type="checkbox" value="" id="agreement-2" name="agreement-2" required>
             <label class="form-check-label" for="agreement-2">
               Ta zgoda też jest wymagana *
             </label>
